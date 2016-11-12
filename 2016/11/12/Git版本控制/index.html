@@ -68,7 +68,7 @@
 <link href="/css/main.css?v=5.0.2" rel="stylesheet" type="text/css" />
 
 
-  <meta name="keywords" content="Hexo, NexT" />
+  <meta name="keywords" content="Git," />
 
 
 
@@ -84,19 +84,70 @@
 
 
 
-<meta name="description" content="Welcome to Hexo! This is your very first post. Check documentation for more info. If you get any problems when using Hexo, you can find the answer in troubleshooting or you can ask me on GitHub.
-Quick">
+<meta name="description" content="###创建版本库
+
+创建目录作为仓库
+
+git init初始化仓库，当前目录会多了一个.git文件。跟踪版本管理库。
+
+添加文件到仓库分为两步：①git add file ②git commit -m”文件提交说明”
+
+
+
+###提交修改
+
+git status掌握仓库当前状态
+
+git diff file查看文件修改
+
+git add file提交文件
+
+git commit -m”修改说明”">
 <meta property="og:type" content="article">
-<meta property="og:title" content="Hello World">
-<meta property="og:url" content="http://yoursite.com/2016/10/26/hello-world/index.html">
+<meta property="og:title" content="Git版本控制">
+<meta property="og:url" content="http://yoursite.com/2016/11/12/Git版本控制/index.html">
 <meta property="og:site_name" content="christine-blog">
-<meta property="og:description" content="Welcome to Hexo! This is your very first post. Check documentation for more info. If you get any problems when using Hexo, you can find the answer in troubleshooting or you can ask me on GitHub.
-Quick">
-<meta property="og:updated_time" content="2016-10-26T14:24:23.808Z">
+<meta property="og:description" content="###创建版本库
+
+创建目录作为仓库
+
+git init初始化仓库，当前目录会多了一个.git文件。跟踪版本管理库。
+
+添加文件到仓库分为两步：①git add file ②git commit -m”文件提交说明”
+
+
+
+###提交修改
+
+git status掌握仓库当前状态
+
+git diff file查看文件修改
+
+git add file提交文件
+
+git commit -m”修改说明”">
+<meta property="og:updated_time" content="2016-11-12T14:26:57.498Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="Hello World">
-<meta name="twitter:description" content="Welcome to Hexo! This is your very first post. Check documentation for more info. If you get any problems when using Hexo, you can find the answer in troubleshooting or you can ask me on GitHub.
-Quick">
+<meta name="twitter:title" content="Git版本控制">
+<meta name="twitter:description" content="###创建版本库
+
+创建目录作为仓库
+
+git init初始化仓库，当前目录会多了一个.git文件。跟踪版本管理库。
+
+添加文件到仓库分为两步：①git add file ②git commit -m”文件提交说明”
+
+
+
+###提交修改
+
+git status掌握仓库当前状态
+
+git diff file查看文件修改
+
+git add file提交文件
+
+git commit -m”修改说明”">
 
 
 
@@ -117,10 +168,10 @@ Quick">
 
 
 
-  <link rel="canonical" href="http://yoursite.com/2016/10/26/hello-world/"/>
+  <link rel="canonical" href="http://yoursite.com/2016/11/12/Git版本控制/"/>
 
 
-  <title> Hello World | christine-blog </title>
+  <title> Git版本控制 | christine-blog </title>
 </head>
 
 <body itemscope itemtype="//schema.org/WebPage" lang="zh-Hans">
@@ -250,7 +301,7 @@ Quick">
             
             
               
-                Hello World
+                Git版本控制
               
             
           </h1>
@@ -262,8 +313,8 @@ Quick">
               <i class="fa fa-calendar-o"></i>
             </span>
             <span class="post-meta-item-text">发表于</span>
-            <time itemprop="dateCreated" datetime="2016-10-26T22:24:23+08:00" content="2016-10-26">
-              2016-10-26
+            <time itemprop="dateCreated" datetime="2016-11-12T20:06:52+08:00" content="2016-11-12">
+              2016-11-12
             </time>
           </span>
 
@@ -290,15 +341,140 @@ Quick">
       
 
       
-        <p>Welcome to <a href="https://hexo.io/" target="_blank" rel="external">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="external">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="external">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="external">GitHub</a>.</p>
-<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo new <span class="string">"My New Post"</span></div></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="external">Writing</a></p>
-<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo server</div></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="external">Server</a></p>
-<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo generate</div></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="external">Generating</a></p>
-<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo deploy</div></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/deployment.html" target="_blank" rel="external">Deployment</a></p>
+        <p>###创建版本库</p>
+<ul>
+<li><p>创建目录作为仓库</p>
+</li>
+<li><p>git init初始化仓库，当前目录会多了一个.git文件。跟踪版本管理库。</p>
+</li>
+<li><p>添加文件到仓库分为两步：①git add file ②git commit -m”文件提交说明”</p>
+</li>
+</ul>
+<hr>
+<p>###提交修改</p>
+<ul>
+<li><p>git status掌握仓库当前状态</p>
+</li>
+<li><p>git diff file查看文件修改</p>
+</li>
+<li><p>git add file提交文件</p>
+</li>
+<li><p>git commit -m”修改说明”</p>
+</li>
+<li><p>git status “查看状态”</p>
+</li>
+</ul>
+<hr>
+<p>###版本回退</p>
+<ul>
+<li><p>git log显示从最近到最远的提交日志（git log –pretty=oneline输出信息太多）</p>
+</li>
+<li><p>git reset –hard HEAD^回退到上个版本。在git中，HEAD为当前版本，HEAD^上个版本，HEAD^^上上个版本，HEAD~100，往上100个版本。</p>
+</li>
+<li><p>git log查看版本。</p>
+</li>
+<li><p>git reset –hard 3628164 通过命令行上的历史信息（假如你没清屏的话），找到版本3 的版本号，只要前面的约7、8位这样就可以指定回到版本3。</p>
+</li>
+<li><p>git reflog 记录你的每一次命令，最先显示的是这个命令执行之后的版本的版本号的前七位，这样就算你清屏了或者重启了，也能找到某个版本的版本号，就可以轻松回退到那个版本</p>
+</li>
+</ul>
+<hr>
+<p>###工作区、版本库和暂存区</p>
+<ul>
+<li><p>工作区：电脑里的目录</p>
+</li>
+<li><p>版本库：.git就是Git的版本库</p>
+</li>
+<li><p>暂存区：Git的版本库里存了很多东西，其中最重要的就是称为stage（或者叫index）的暂存区，还有Git为我们自动创建的第一个分支master，以及指向master的一个指针叫HEAD。需要提交的文件修改通通放到暂存区，然后，一次性提交暂存区的所有修改。</p>
+</li>
+</ul>
+<hr>
+<p>###管理修改</p>
+<ul>
+<li><p>vim readme.txt 编辑文件，比如添加新的一行。</p>
+</li>
+<li><p>git add readme.txt 添加，但是不提交。</p>
+</li>
+<li><p>vim readme.txt 再编辑文件，比如再添加一行。</p>
+</li>
+<li><p>git commit -m “修改两次，添一次，提交一次” 提交。</p>
+</li>
+<li><p>git status 看到的效果是：只提交了第一次的修改，第二次的修改没有提交。</p>
+</li>
+<li><p>可以一次性提交N个文件，然后git commit -m”说明”。</p>
+</li>
+</ul>
+<hr>
+<p>###撤销修改</p>
+<ul>
+<li>修改了文件，没有git add 和 git commit。<br>git checkout –file把file在工作做的修改全部撤销。</li>
+<li><p>修改了文件，做了git add，但是没有git commit。<br>git status 查看状态。然后git reset HEAD file可以把暂存区的修改撤销掉，重新放回工作区。git reset命令既可以回退版本，也可以把暂存区的修改回退到工作区。当我们用HEAD时，表示最新的版本。git status 查看一下，现在暂存区是干净的，工作区有修改git checkout – readme.txt 还记得第一种情况中如何丢弃工作区的修改吧。</p>
+</li>
+<li><p>将暂存区的文件提交到了版本库。可以版本回退到上个版本。前提是没把本地库推送到远程库。</p>
+</li>
+</ul>
+<hr>
+<p>###删除文件</p>
+<ul>
+<li><p>一般情况下，你通常会在文件管理器中把没用的文件删除，或者直接rm test.txt。</p>
+</li>
+<li><p>it status 这个时候，Git知道你删除了文件，因此，工作区和版本库就不一致了，git status命令会立刻告诉你哪些文件被删除了</p>
+</li>
+<li><p>现在你有两个选择，一是确实从版本库中删除该文件，那就git rm test.txt，然后git commit 文件就从版本库中删除了。</p>
+</li>
+<li><p>另一种情况是删除错了，因为版本库里还有，所以可以轻松地将误删除的文件恢复到最新版本git checkout – test.txt git checkout其实使用版本库中的版本替换工作区的版本，无论工作区是修改还是删除，都可以“一键还原”。</p>
+</li>
+</ul>
+<hr>
+<p>###添加远程库</p>
+<ul>
+<li><p>在GitHub上创建仓库</p>
+</li>
+<li><p>git remote add origin git@github.com:michaelliao/learngit.git 这个命令是在本地下仓库下执行的。注意改成自己的GitHub账号。</p>
+</li>
+<li><p>git push -u origin master 把本地库的所有内容推送到远程库上。此后，每次本地提交后，只要有必要，就可以使用命令git push origin master推送最新修改。</p>
+</li>
+</ul>
+<hr>
+<p>###远程库克隆</p>
+<ul>
+<li><p>git clone git@github.com:michaelliao/gitskills.git 克隆一个本地库</p>
+</li>
+<li><p>cd gitskills 进入克隆下来的本地库，默认的名字是和github上的一样的</p>
+</li>
+<li><p>ls -al 可以看到本地的克隆库里面是和远程库里面的一样的</p>
+</li>
+<li><p>如果多人协作开发，那么每个人各自从远程克隆一份就可以了。</p>
+</li>
+</ul>
+<hr>
+<p>###分支管理</p>
+<ul>
+<li><p>git checkout -b dev 创建一个新的分支：dev，并且会切换到dev分支。所以这条命令有两个作用。git checkout命令加上-b参数表示创建并切换，相当于以下两条命令：git branch dev 和 git checkout dev。</p>
+<p> 补充：所有的git管理的项目刚开始时候默认有一条分支：master。</p>
+</li>
+<li><p>git branch 查看当前所在的分支。git branch命令会列出所有分支，当前分支前面会标一个*号。</p>
+<p>  因为切换到dev分支，所以我们现在可以在dev分支上正常提交，比如对readme.txt做一个修改。</p>
+</li>
+<li><p>git add readme.txt。</p>
+</li>
+<li><p>git commit -m “提交到dev分支”。</p>
+</li>
+<li><p>git checkout master 现在，dev分支的工作完成，我们就可以切换回master分支。</p>
+</li>
+</ul>
+<p><em>注意:</em>切换回master分支后，再查看一个readme.txt文件，刚才添加的内容不见了！因为那个提交是在dev分支上，而master分支此刻的提交点并没有变。</p>
+<ul>
+<li><p>git merge dev 这是在master分支上执行的命令，作用是：把dev分支上的工作成果合并到master分支上。</p>
+</li>
+<li><p>git merge命令用于合并指定分支到当前分支。合并后，再查看readme.txt的内容，就可以看到，和dev分支的最新提交是完全一样的。注意到上面的Fast-forward信息，Git告诉我们，这次合并是“快进模式”，也就是直接把master指向dev的当前提交，所以合并速度非常快。当然，也不是每次合并都能Fast-forward，我们后面会将其他方式的合并。</p>
+</li>
+<li><p>git branch -d dev 合并完成之后，可以放心的删除dev分支了。</p>
+</li>
+<li><p>git branch 删除后，查看branch，只剩下master了。</p>
+</li>
+</ul>
+<hr>
 
       
     </div>
@@ -319,18 +495,24 @@ Quick">
 
     <footer class="post-footer">
       
+        <div class="post-tags">
+          
+            <a href="/tags/Git/" rel="tag">#Git</a>
+          
+        </div>
+      
 
       
         <div class="post-nav">
           <div class="post-nav-next post-nav-item">
             
+              <a href="/2016/11/12/更新博文及其部署/" rel="next" title="更新博文及其部署">
+                <i class="fa fa-chevron-left"></i> 更新博文及其部署
+              </a>
+            
           </div>
 
           <div class="post-nav-prev post-nav-item">
-            
-              <a href="/2016/10/30/我的第一篇博文记录/" rel="prev" title="我的第一篇博文记录">
-                我的第一篇博文记录 <i class="fa fa-chevron-right"></i>
-              </a>
             
           </div>
         </div>
@@ -437,7 +619,7 @@ Quick">
               
             
             
-              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#Quick-Start"><span class="nav-number">1.</span> <span class="nav-text">Quick Start</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#Create-a-new-post"><span class="nav-number">1.1.</span> <span class="nav-text">Create a new post</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Run-server"><span class="nav-number">1.2.</span> <span class="nav-text">Run server</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Generate-static-files"><span class="nav-number">1.3.</span> <span class="nav-text">Generate static files</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Deploy-to-remote-sites"><span class="nav-number">1.4.</span> <span class="nav-text">Deploy to remote sites</span></a></li></ol></li></ol></div>
+              <p class="post-toc-empty">此文章未包含目录</p>
             
           </div>
         </section>
