@@ -84,8 +84,7 @@
 
 
 
-<meta name="description" content="###创建版本库
-
+<meta name="description" content="创建版本库
 创建目录作为仓库
 
 git init初始化仓库，当前目录会多了一个.git文件。跟踪版本管理库。
@@ -94,21 +93,21 @@ git init初始化仓库，当前目录会多了一个.git文件。跟踪版本�
 
 
 
-###提交修改
-
+提交修改
 git status掌握仓库当前状态
 
 git diff file查看文件修改
 
 git add file提交文件
 
-git commit -m”修改说明”">
+git commit -m”修改说明”
+
+git sta">
 <meta property="og:type" content="article">
 <meta property="og:title" content="Git版本控制">
 <meta property="og:url" content="http://yoursite.com/2016/11/12/Git版本控制/index.html">
 <meta property="og:site_name" content="christine-blog">
-<meta property="og:description" content="###创建版本库
-
+<meta property="og:description" content="创建版本库
 创建目录作为仓库
 
 git init初始化仓库，当前目录会多了一个.git文件。跟踪版本管理库。
@@ -117,20 +116,20 @@ git init初始化仓库，当前目录会多了一个.git文件。跟踪版本�
 
 
 
-###提交修改
-
+提交修改
 git status掌握仓库当前状态
 
 git diff file查看文件修改
 
 git add file提交文件
 
-git commit -m”修改说明”">
-<meta property="og:updated_time" content="2016-11-12T14:26:57.498Z">
+git commit -m”修改说明”
+
+git sta">
+<meta property="og:updated_time" content="2016-11-12T14:40:03.983Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="Git版本控制">
-<meta name="twitter:description" content="###创建版本库
-
+<meta name="twitter:description" content="创建版本库
 创建目录作为仓库
 
 git init初始化仓库，当前目录会多了一个.git文件。跟踪版本管理库。
@@ -139,15 +138,16 @@ git init初始化仓库，当前目录会多了一个.git文件。跟踪版本�
 
 
 
-###提交修改
-
+提交修改
 git status掌握仓库当前状态
 
 git diff file查看文件修改
 
 git add file提交文件
 
-git commit -m”修改说明”">
+git commit -m”修改说明”
+
+git sta">
 
 
 
@@ -341,8 +341,7 @@ git commit -m”修改说明”">
       
 
       
-        <p>###创建版本库</p>
-<ul>
+        <h3 id="创建版本库"><a href="#创建版本库" class="headerlink" title="创建版本库"></a>创建版本库</h3><ul>
 <li><p>创建目录作为仓库</p>
 </li>
 <li><p>git init初始化仓库，当前目录会多了一个.git文件。跟踪版本管理库。</p>
@@ -351,8 +350,7 @@ git commit -m”修改说明”">
 </li>
 </ul>
 <hr>
-<p>###提交修改</p>
-<ul>
+<h3 id="提交修改"><a href="#提交修改" class="headerlink" title="提交修改"></a>提交修改</h3><ul>
 <li><p>git status掌握仓库当前状态</p>
 </li>
 <li><p>git diff file查看文件修改</p>
@@ -365,8 +363,7 @@ git commit -m”修改说明”">
 </li>
 </ul>
 <hr>
-<p>###版本回退</p>
-<ul>
+<h3 id="版本回退"><a href="#版本回退" class="headerlink" title="版本回退"></a>版本回退</h3><ul>
 <li><p>git log显示从最近到最远的提交日志（git log –pretty=oneline输出信息太多）</p>
 </li>
 <li><p>git reset –hard HEAD^回退到上个版本。在git中，HEAD为当前版本，HEAD^上个版本，HEAD^^上上个版本，HEAD~100，往上100个版本。</p>
@@ -379,8 +376,7 @@ git commit -m”修改说明”">
 </li>
 </ul>
 <hr>
-<p>###工作区、版本库和暂存区</p>
-<ul>
+<h3 id="工作区、版本库和暂存区"><a href="#工作区、版本库和暂存区" class="headerlink" title="工作区、版本库和暂存区"></a>工作区、版本库和暂存区</h3><ul>
 <li><p>工作区：电脑里的目录</p>
 </li>
 <li><p>版本库：.git就是Git的版本库</p>
@@ -389,8 +385,7 @@ git commit -m”修改说明”">
 </li>
 </ul>
 <hr>
-<p>###管理修改</p>
-<ul>
+<h3 id="管理修改"><a href="#管理修改" class="headerlink" title="管理修改"></a>管理修改</h3><ul>
 <li><p>vim readme.txt 编辑文件，比如添加新的一行。</p>
 </li>
 <li><p>git add readme.txt 添加，但是不提交。</p>
@@ -405,8 +400,7 @@ git commit -m”修改说明”">
 </li>
 </ul>
 <hr>
-<p>###撤销修改</p>
-<ul>
+<h3 id="撤销修改"><a href="#撤销修改" class="headerlink" title="撤销修改"></a>撤销修改</h3><ul>
 <li>修改了文件，没有git add 和 git commit。<br>git checkout –file把file在工作做的修改全部撤销。</li>
 <li><p>修改了文件，做了git add，但是没有git commit。<br>git status 查看状态。然后git reset HEAD file可以把暂存区的修改撤销掉，重新放回工作区。git reset命令既可以回退版本，也可以把暂存区的修改回退到工作区。当我们用HEAD时，表示最新的版本。git status 查看一下，现在暂存区是干净的，工作区有修改git checkout – readme.txt 还记得第一种情况中如何丢弃工作区的修改吧。</p>
 </li>
@@ -414,8 +408,7 @@ git commit -m”修改说明”">
 </li>
 </ul>
 <hr>
-<p>###删除文件</p>
-<ul>
+<h3 id="删除文件"><a href="#删除文件" class="headerlink" title="删除文件"></a>删除文件</h3><ul>
 <li><p>一般情况下，你通常会在文件管理器中把没用的文件删除，或者直接rm test.txt。</p>
 </li>
 <li><p>it status 这个时候，Git知道你删除了文件，因此，工作区和版本库就不一致了，git status命令会立刻告诉你哪些文件被删除了</p>
@@ -426,8 +419,7 @@ git commit -m”修改说明”">
 </li>
 </ul>
 <hr>
-<p>###添加远程库</p>
-<ul>
+<h3 id="添加远程库"><a href="#添加远程库" class="headerlink" title="添加远程库"></a>添加远程库</h3><ul>
 <li><p>在GitHub上创建仓库</p>
 </li>
 <li><p>git remote add origin git@github.com:michaelliao/learngit.git 这个命令是在本地下仓库下执行的。注意改成自己的GitHub账号。</p>
@@ -436,8 +428,7 @@ git commit -m”修改说明”">
 </li>
 </ul>
 <hr>
-<p>###远程库克隆</p>
-<ul>
+<h3 id="远程库克隆"><a href="#远程库克隆" class="headerlink" title="远程库克隆"></a>远程库克隆</h3><ul>
 <li><p>git clone git@github.com:michaelliao/gitskills.git 克隆一个本地库</p>
 </li>
 <li><p>cd gitskills 进入克隆下来的本地库，默认的名字是和github上的一样的</p>
@@ -448,8 +439,7 @@ git commit -m”修改说明”">
 </li>
 </ul>
 <hr>
-<p>###分支管理</p>
-<ul>
+<h3 id="分支管理"><a href="#分支管理" class="headerlink" title="分支管理"></a>分支管理</h3><ul>
 <li><p>git checkout -b dev 创建一个新的分支：dev，并且会切换到dev分支。所以这条命令有两个作用。git checkout命令加上-b参数表示创建并切换，相当于以下两条命令：git branch dev 和 git checkout dev。</p>
 <p> 补充：所有的git管理的项目刚开始时候默认有一条分支：master。</p>
 </li>
@@ -619,7 +609,7 @@ git commit -m”修改说明”">
               
             
             
-              <p class="post-toc-empty">此文章未包含目录</p>
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-3"><a class="nav-link" href="#创建版本库"><span class="nav-number">1.</span> <span class="nav-text">创建版本库</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#提交修改"><span class="nav-number">2.</span> <span class="nav-text">提交修改</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#版本回退"><span class="nav-number">3.</span> <span class="nav-text">版本回退</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#工作区、版本库和暂存区"><span class="nav-number">4.</span> <span class="nav-text">工作区、版本库和暂存区</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#管理修改"><span class="nav-number">5.</span> <span class="nav-text">管理修改</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#撤销修改"><span class="nav-number">6.</span> <span class="nav-text">撤销修改</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#删除文件"><span class="nav-number">7.</span> <span class="nav-text">删除文件</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#添加远程库"><span class="nav-number">8.</span> <span class="nav-text">添加远程库</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#远程库克隆"><span class="nav-number">9.</span> <span class="nav-text">远程库克隆</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#分支管理"><span class="nav-number">10.</span> <span class="nav-text">分支管理</span></a></li></ol></div>
             
           </div>
         </section>
